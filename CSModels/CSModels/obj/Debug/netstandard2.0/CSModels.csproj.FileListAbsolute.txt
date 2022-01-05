@@ -1,0 +1,7 @@
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\bin\Debug\netstandard2.0\CSModels.deps.json
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\bin\Debug\netstandard2.0\CSModels.dll
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\bin\Debug\netstandard2.0\CSModels.pdb
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\obj\Debug\netstandard2.0\CSModels.AssemblyInfoInputs.cache
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\obj\Debug\netstandard2.0\CSModels.AssemblyInfo.cs
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\obj\Debug\netstandard2.0\CSModels.dll
+C:\AE IT Project\Concur Repositories\Main\ConcurServiceEngine\CSModels\CSModels\obj\Debug\netstandard2.0\CSModels.pdb

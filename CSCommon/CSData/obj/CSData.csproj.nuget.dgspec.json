@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSData\\CSData.csproj": {}
+  },
+  "projects": {
+    "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSCommon\\CSCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSCommon\\CSCommon.csproj",
+        "projectName": "CSCommon",
+        "projectPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSCommon\\CSCommon.csproj",
+        "packagesPath": "C:\\Users\\pererar\\.nuget\\packages\\",
+        "outputPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pererar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj": {
+                "projectPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.NETCore.Runtime.CoreCLR": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Private.Uri": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSData\\CSData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSData\\CSData.csproj",
+        "projectName": "CSData",
+        "projectPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSData\\CSData.csproj",
+        "packagesPath": "C:\\Users\\pererar\\.nuget\\packages\\",
+        "outputPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pererar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSCommon\\CSCommon.csproj": {
+                "projectPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSCommon\\CSCommon\\CSCommon.csproj"
+              },
+              "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj": {
+                "projectPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.Runtime.CoreCLR": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "System.Private.Uri": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj",
+        "projectName": "CSModels",
+        "projectPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\CSModels.csproj",
+        "packagesPath": "C:\\Users\\pererar\\.nuget\\packages\\",
+        "outputPath": "C:\\AE IT Project\\Concur Repositories\\Main\\ConcurServiceEngine\\CSModels\\CSModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pererar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.Runtime.CoreCLR": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Private.Uri": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
